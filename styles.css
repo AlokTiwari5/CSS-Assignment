@@ -55,3 +55,29 @@ h1 {
   left: 35vw;
   z-index: 1;
 }
+
+/* Media query for mobile devices */
+@media (max-width: 767px) {
+  .circle {
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+  }
+  
+  .circle span {
+    font-size: 16px;
+  }
+  
+  .bottom {
+    top: 10vh;
+    height: 50vh;
+  }
+  
+  .triangle {
+    top: 20.4vh;
+    left: 15vw;
+    border-left: 20vh solid transparent;
+    border-right: 20vh solid transparent;
+    border-bottom: 50px solid yellow;
+  }
+}
