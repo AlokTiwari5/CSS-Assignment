@@ -55,33 +55,3 @@ h1 {
   left: 35vw;
   z-index: 1;
 }
-
-
-@media (max-width: 767px) {
-  h1 {
-    font-size: 20px;
-    margin-bottom: 10px;
-  }
-  
-  .circle {
-    width: 40px;
-    height: 40px;
-    line-height: 40px;
-  }
-  
-  .circle span {
-    font-size: 16px;
-  }
-  
-  .bottom {
-    top: 10vh;
-    height: 40vh;
-  }
-  
-  .triangle {
-    top: 20.4vh;
-    border-left: 40vw solid transparent;
-    border-right: 40vw solid transparent;
-    border-bottom: 50px solid yellow;
-  }
-}
