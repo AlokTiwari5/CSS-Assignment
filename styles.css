@@ -56,7 +56,7 @@ h1 {
   z-index: 1;
 }
 
-/* Media query for mobile devices */
+
 @media (max-width: 767px) {
   .circle {
     width: 40px;
