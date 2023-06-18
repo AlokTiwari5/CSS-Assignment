@@ -1,0 +1,57 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  background-color: yellow;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  text-align: center;
+}
+
+h1 {
+  font-family: Arial, sans-serif;
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.circle {
+  display: inline-block;
+  background-color: rgb(100, 100, 100, 0.5);
+  border: 2px solid black;
+  border-radius: 50%;
+  width: 60px;
+  height: 60px;
+  line-height: 60px;
+}
+
+.circle span {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.bottom {
+  background-color: rgb(193, 80, 80);
+  width: 100vw;
+  height: 35vh;
+  position: relative;
+  top: 15vh;
+}
+
+.triangle {
+  background-color: rgb(193, 80, 80);
+  width: 0;
+  height: 0;
+  border-left: 30vh solid transparent;
+  border-right: 30vh solid transparent;
+  transform: rotate(180deg);
+  border-bottom: 100px solid yellow;
+  position: relative;
+  top: 30.4vh;
+  left: 35vw;
+  z-index: 1;
+}
